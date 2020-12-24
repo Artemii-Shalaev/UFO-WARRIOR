@@ -16,7 +16,6 @@ FPS = 60
 
 def startGame(screen):
     clock = pygame.time.Clock()
-    # 加载字体
     font = pygame.font.SysFont('arial', 18)
     if not os.path.isfile('score'):
         f = open('score', 'w')
